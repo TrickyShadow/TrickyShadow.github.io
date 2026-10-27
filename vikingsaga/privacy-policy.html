@@ -105,7 +105,7 @@
   <div class="summary">
     <p><strong>In short</strong></p>
     <ul>
-      <li>There are no accounts, and your game progress is stored only on your phone.</li>
+      <li>There are no game accounts. Your progress is stored on your phone, and in your Google account only if you link Google Play cloud save.</li>
       <li>We (the developer) run no servers and do not receive your personal data.</li>
       <li>Ads are provided by Google AdMob, which collects device data to show and measure ads.</li>
       <li>Purchases are handled by Google Play. We never see your payment details.</li>
@@ -121,6 +121,12 @@
     <h2>Information stored on your device</h2>
     <p>The game saves your progress (heroes, gear, stages, currencies, purchases already granted) and your settings (music, sound, vibration, notifications) in the game's private storage on your phone. This data is not sent to us.</p>
     <p>If Android backup is turned on for your Google account, Android may include the game's save in your device backup, which Google stores under its own privacy policy. Uninstalling the game removes its saved data from the phone.</p>
+  </section>
+
+  <section>
+    <h2>Cloud save (Google Play Games)</h2>
+    <p>Cloud saving is optional and off until you turn it on with <strong>Link</strong> under <strong>Profile → Settings → Cloud save</strong>. When linked, the game signs in to Google Play Games Services and stores a copy of your save (the same progress data described above, plus a short summary such as your stage and forge level) in Google Play Games' saved-games storage in your Google account. The game reads your Play Games display name to show which account is linked. We do not receive your email address or this data.</p>
+    <p>The copy is updated while you play and when you leave the game, and is used to restore your progress on a new or reset phone. <strong>Unlink</strong> stops cloud saving; <strong>Unlink &amp; delete</strong> also deletes the cloud copy. Google handles this data under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>, and you can manage your Play Games profile and data in the Google Play Games app or your Google account.</p>
   </section>
 
   <section>
@@ -146,7 +152,7 @@
     <ul>
       <li><strong>Notifications:</strong> reminders (forge upgrade finished, offline earnings full, dungeon keys refilled) are scheduled on your phone. No notification data is sent to us, and you can turn them off in the game's settings or in Android's settings.</li>
       <li><strong>Vibration:</strong> used for haptic feedback only.</li>
-      <li><strong>Internet:</strong> used to load ads and to talk to Google Play for purchases.</li>
+      <li><strong>Internet:</strong> used to load ads, to talk to Google Play for purchases, and for cloud save when you link it.</li>
     </ul>
   </section>
 
@@ -158,7 +164,8 @@
           <tr><th>Data</th><th>Who handles it</th><th>Why</th></tr>
         </thead>
         <tbody>
-          <tr><td>Game progress and settings</td><td>Your phone only</td><td>To keep your game</td></tr>
+          <tr><td>Game progress and settings</td><td>Your phone</td><td>To keep your game</td></tr>
+          <tr><td>Copy of your game progress, Play Games display name (only if you link cloud save)</td><td>Google Play Games, in your Google account</td><td>Restoring your progress on other phones</td></tr>
           <tr><td>Advertising ID, IP address, device info, ad interactions</td><td>Google AdMob</td><td>Showing and measuring ads, fraud prevention</td></tr>
           <tr><td>Payment details</td><td>Google Play</td><td>Processing purchases</td></tr>
           <tr><td>Product bought and purchase token</td><td>Google Play and your phone</td><td>Granting each purchase once</td></tr>
@@ -174,12 +181,12 @@
 
   <section>
     <h2>Your rights</h2>
-    <p>Depending on where you live (for example under the GDPR in the EU), you may have the right to access, correct or delete personal data and to object to its use. Because we do not hold personal data about you, requests about advertising data are best sent to Google, and you can always withdraw ad consent in the game's Privacy options. We are happy to help with any request: just email us.</p>
+    <p>Depending on where you live (for example under the GDPR in the EU), you may have the right to access, correct or delete personal data and to object to its use. Because we do not hold personal data about you, requests about advertising data are best sent to Google, and you can always withdraw ad consent in the game's Privacy options. You can delete your cloud save at any time with <strong>Unlink &amp; delete</strong> in the game's settings. We are happy to help with any request: just email us.</p>
   </section>
 
   <section>
     <h2>Security</h2>
-    <p>Your save stays in storage that only the game can read. Connections to Google's ad and payment services are encrypted.</p>
+    <p>Your save stays in storage that only the game can read. Connections to Google's ad, payment and Play Games services are encrypted.</p>
   </section>
 
   <section>
