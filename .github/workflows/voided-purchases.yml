@@ -1,0 +1,40 @@
+name: Refunded purchases
+
+# Every 6 hours: publish the hashes of refunded or charged-back Viking Saga purchases
+# (from Google Play's Voided Purchases API) so the game can take them back.
+# Needs the PLAY_SERVICE_ACCOUNT_JSON repository secret (a Play Console service account key).
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Google auth
+        run: pip install --quiet google-auth requests
+
+      - name: Fetch voided purchases
+        env:
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: python .github/scripts/voided_purchases.py
+
+      - name: Publish changes
+        run: |
+          git add vikingsaga/voided.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update refunded purchases"
+          git push
