@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Viking Saga's Idle RPG</title>
+<meta name="description" content="Forge legendary gear, battle monster waves through six eras, hatch pets and tame mounts. Viking Saga's Idle RPG for Android.">
+<meta property="og:title" content="Viking Saga's Idle RPG">
+<meta property="og:description" content="Forge legendary gear and battle through six eras in this idle RPG for Android.">
+<meta property="og:image" content="https://playvikingsaga.com/img/feature.jpg">
+<meta property="og:url" content="https://playvikingsaga.com/">
+<meta name="theme-color" content="#141a33">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700;800&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<style>
+  /* Layout: the feature banner on a northern night sky, then one column: pitch, screenshots, updates, support. */
+  :root {
+    --sky: #141a33;
+    --sky-2: #1d2547;
+    --panel: #232c52;
+    --fg: #f1f2f8;
+    --muted: #b7bdd6;
+    --line: #36406b;
+    --gold: #ffc94d;
+    --wood: #b9773a;
+    --aurora: #5fd6b4;
+    --ink-on-gold: #2a1a05;
+    --display: "Alegreya SC", Georgia, "Times New Roman", serif;
+    --body: "Alegreya Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(60rem 22rem at 70% -6rem, rgba(95, 214, 180, .16), transparent 70%),
+      radial-gradient(50rem 20rem at 10% 4rem, rgba(124, 108, 255, .14), transparent 70%),
+      linear-gradient(var(--sky), var(--sky-2) 60rem, var(--sky));
+    background-color: var(--sky);
+    color: var(--fg);
+    font: 1.0625rem/1.6 var(--body);
+  }
+  a { color: var(--gold); text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+  .wrap {
+    max-width: 60rem; margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  nav.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 14px; }
+  nav.top .brand { display: flex; align-items: center; gap: 10px; color: var(--fg); text-decoration: none; font: 800 1.1rem var(--display); }
+  nav.top .brand img { width: 34px; height: 34px; border-radius: 9px; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; font-size: .98rem; }
+  nav.top .links a { color: var(--muted); text-decoration: none; }
+  nav.top .links a:hover { color: var(--fg); }
+
+  .banner { border-radius: 18px; overflow: hidden; border: 2px solid var(--line); box-shadow: 0 18px 50px rgba(0, 0, 0, .45); }
+  .banner img { display: block; width: 100%; height: auto; aspect-ratio: 1024 / 500; max-width: 100%; }
+
+  .pitch { display: grid; gap: 14px; justify-items: center; text-align: center; padding-block: 28px 8px; }
+  h1, h2 { font-family: var(--display); text-wrap: balance; line-height: 1.15; margin: 0; }
+  h1 { font-size: clamp(1.9rem, 5.5vw, 2.9rem); }
+  h1 span { color: var(--gold); }
+  .pitch p { margin: 0; max-width: 40rem; color: var(--muted); font-size: 1.12rem; }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700;
+    border-radius: 12px; padding: 12px 22px; font-size: 1.05rem;
+  }
+  .btn.play { background: linear-gradient(#ffd977, var(--gold) 55%, #e6a92a); color: var(--ink-on-gold); border: 2px solid #8a5a12; box-shadow: 0 4px 0 #8a5a12; }
+  .btn.play:active { transform: translateY(2px); box-shadow: 0 2px 0 #8a5a12; }
+  .btn.ghost { color: var(--fg); border: 2px solid var(--line); background: rgba(255, 255, 255, .03); }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .tester { font-size: .92rem; color: var(--muted); }
+
+  section { padding-block: 34px 6px; display: grid; gap: 18px; scroll-margin-top: 12px; }
+  section > h2 { font-size: clamp(1.5rem, 4vw, 2rem); }
+  section > h2 small { display: block; font: 500 .95rem var(--body); color: var(--muted); margin-top: 4px; }
+
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 12px; }
+  .feature { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 4px; align-content: start; }
+  .feature b { font-family: var(--display); font-size: 1.15rem; color: var(--gold); }
+  .feature span { color: var(--muted); }
+
+  .shots { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 10px; }
+  .shots img { flex: none; width: min(15rem, 62vw); height: auto; aspect-ratio: 9 / 16; border-radius: 14px; border: 1px solid var(--line); scroll-snap-align: start; }
+
+  .updates { display: grid; gap: 12px; }
+  .update { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 8px; min-width: 0; }
+  .update header { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .update header b { font-family: var(--display); font-size: 1.2rem; }
+  .update header time { color: var(--muted); font-size: .92rem; font-variant-numeric: tabular-nums; }
+  .update .latest { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-on-gold); background: var(--aurora); border-radius: 999px; padding: 2px 9px; margin-left: 8px; vertical-align: middle; }
+  .update h3 { margin: 6px 0 0; font-size: 1rem; color: var(--gold); font-weight: 700; }
+  .update ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 4px; overflow-wrap: anywhere; }
+  .update ul ul { margin-top: 4px; }
+  .update p { margin: 0; }
+  details.older summary { cursor: pointer; color: var(--gold); font-weight: 700; padding: 6px 0; }
+  details.older .updates { margin-top: 10px; }
+  .loading { color: var(--muted); }
+
+  .support { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 10px; }
+  .support p { margin: 0; color: var(--muted); }
+  .mail { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .mail code { font: 700 1.1rem var(--body); color: var(--fg); user-select: all; word-break: break-all; }
+  .mail button { font: inherit; font-size: .95rem; cursor: pointer; color: var(--gold); background: transparent; border: 1px solid var(--gold); border-radius: 8px; padding: 4px 12px; }
+
+  footer { color: var(--muted); font-size: .92rem; border-top: 1px solid var(--line); margin-top: 40px; padding-block: 18px 34px; display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Main">
+    <a class="brand" href="/"><img src="/img/icon-192.png" alt="" width="34" height="34">Viking Saga</a>
+    <div class="links">
+      <a href="#updates">Updates</a>
+      <a href="#support">Support</a>
+      <a href="/privacy">Privacy</a>
+    </div>
+  </nav>
+
+  <div class="banner">
+    <img src="/img/feature.webp" alt="Viking Saga Idle RPG: a young Viking with an axe next to the game's logo and a little red dragon" width="1024" height="500">
+  </div>
+
+  <div class="pitch">
+    <h1>Forge your legend in <span>Viking Saga</span></h1>
+    <p>An idle RPG for Android. Forge gear, fight monster waves through six eras from the Viking north to a crystal age, hatch flying pets and tame mounts. Your hero keeps fighting while you're away.</p>
+    <div class="cta">
+      <a class="btn play" href="https://play.google.com/store/apps/details?id=com.trickyshadow.vikingsaga" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6z"/></svg>
+        Get it on Google Play
+      </a>
+      <a class="btn ghost" href="#updates">What's new</a>
+    </div>
+    <span class="tester">Currently in closed testing.</span>
+  </div>
+
+  <section aria-labelledby="features-title">
+    <h2 id="features-title">What awaits</h2>
+    <div class="features">
+      <div class="feature"><b>Forge</b><span>Hammer out gear with runes and level your forge for rarer drops, from Common to Crystalline.</span></div>
+      <div class="feature"><b>Six eras</b><span>Battle waves and chapter bosses from Viking Saga through Dragon Kingdoms, the Sky Seas and beyond.</span></div>
+      <div class="feature"><b>Pets and mounts</b><span>Hatch dragons, gryphons and birds in the Pet Aerie and tame mounts in the Beast Den.</span></div>
+      <div class="feature"><b>Dungeons and tower</b><span>Beat guardians for gold, runes, eggs and shards, then climb the Tower of Heroes.</span></div>
+      <div class="feature"><b>Mastery</b><span>Raise lasting skills one random level at a time.</span></div>
+      <div class="feature"><b>Rankings</b><span>Compare your power and tower floor with everyone on Google Play.</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="shots-title">
+    <h2 id="shots-title">Screenshots</h2>
+    <div class="shots" tabindex="0" aria-label="Screenshots, scroll sideways">
+      <img src="/img/shot-1.webp" alt="Battling the Frost Giant boss" loading="lazy" width="480" height="853">
+      <img src="/img/shot-2.webp" alt="Six epic eras, from fjords to dragon kingdoms" loading="lazy" width="480" height="853">
+      <img src="/img/shot-3.webp" alt="Forge legendary gear: 120 forge levels, six rarities" loading="lazy" width="480" height="853">
+      <img src="/img/shot-4.webp" alt="Tame mighty mounts: summon, level up and ride them" loading="lazy" width="480" height="853">
+      <img src="/img/shot-5.webp" alt="Hatch loyal pets that fight, heal and shield you" loading="lazy" width="480" height="853">
+      <img src="/img/shot-6.webp" alt="Raid the dungeons for gold, runes, eggs and shards" loading="lazy" width="480" height="853">
+      <img src="/img/shot-7.webp" alt="Climb the tower, beat guardians and top the rankings" loading="lazy" width="480" height="853">
+      <img src="/img/shot-8.webp" alt="Daily rewards: free chests and deals every day" loading="lazy" width="480" height="853">
+    </div>
+  </section>
+
+  <section id="updates" aria-labelledby="updates-title">
+    <h2 id="updates-title">Updates<small>Every update to the game, newest first.</small></h2>
+    <div class="updates" id="recent"><p class="loading">Loading updates…</p></div>
+    <details class="older" id="older-box" hidden>
+      <summary>Older updates</summary>
+      <div class="updates" id="older"></div>
+    </details>
+  </section>
+
+  <section id="support" aria-labelledby="support-title">
+    <h2 id="support-title">Support</h2>
+    <div class="support">
+      <p>Missing a purchase, lost progress or found a bug? In the game, open your profile, then <b>Settings → Contact support</b>: your player ID and game version are filled in for you. Or email us:</p>
+      <div class="mail">
+        <code id="email">support@playvikingsaga.com</code>
+        <button type="button" id="copy-email">Copy</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© TrickyShadow · Viking Saga's Idle RPG</span>
+    <span><a href="/privacy">Privacy policy</a></span>
+  </footer>
+</div>
+
+<script>
+  const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/`(.+?)`/g, "<code>$1</code>");
+
+  /** The few Markdown bits the update notes use: ### headings, - bullets (two-space nested), **bold**. */
+  function render(md) {
+    let html = "", depth = 0;
+    const close = to => { while (depth > to) { html += "</ul>"; depth--; } };
+    for (const raw of md.split("\n")) {
+      const line = raw.replace(/\s+$/, "");
+      if (!line.trim()) continue;
+      const h = line.match(/^#{2,4}\s+(.*)/);
+      const li = line.match(/^(\s*)[-*]\s+(.*)/);
+      if (h) { close(0); html += `<h3>${inline(h[1])}</h3>`; }
+      else if (li) {
+        const level = Math.floor(li[1].length / 2) + 1;
+        while (depth < level) { html += "<ul>"; depth++; }
+        close(level);
+        html += `<li>${inline(li[2])}</li>`;
+      } else { close(0); html += `<p>${inline(line)}</p>`; }
+    }
+    close(0);
+    return html;
+  }
+
+  const fmtDate = d => new Date(d + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+
+  function card(u, latest) {
+    const el = document.createElement("article");
+    el.className = "update";
+    el.innerHTML = `<header><b>${u.version ? "Version " + esc(u.version) : "Update"}${latest ? '<span class="latest">Latest</span>' : ""}</b><time datetime="${esc(u.date)}">${fmtDate(u.date)}</time></header>${render(u.notes)}`;
+    return el;
+  }
+
+  fetch("/updates.json", { cache: "no-cache" })
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(list => {
+      const recent = document.getElementById("recent");
+      recent.innerHTML = "";
+      if (!list.length) { recent.innerHTML = '<p class="loading">No updates posted yet.</p>'; return; }
+      list.slice(0, 5).forEach((u, i) => recent.append(card(u, i === 0)));
+      const rest = list.slice(5);
+      if (rest.length) {
+        const older = document.getElementById("older");
+        rest.forEach(u => older.append(card(u, false)));
+        document.getElementById("older-box").hidden = false;
+        document.querySelector("#older-box summary").textContent = `Older updates (${rest.length})`;
+      }
+    })
+    .catch(() => { document.getElementById("recent").innerHTML = '<p class="loading">Updates couldn\'t be loaded. Try again in a moment.</p>'; });
+
+  document.getElementById("copy-email").addEventListener("click", async e => {
+    const btn = e.currentTarget;
+    try { await navigator.clipboard.writeText("support@playvikingsaga.com"); btn.textContent = "Copied"; }
+    catch { getSelection().selectAllChildren(document.getElementById("email")); btn.textContent = "Selected"; }
+    setTimeout(() => btn.textContent = "Copy", 1600);
+  });
+</script>
+</body>
+</html>

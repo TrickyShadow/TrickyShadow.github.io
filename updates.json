@@ -1,0 +1,232 @@
+[
+ {
+  "version": "1.0.199",
+  "date": "2026-10-31",
+  "notes": "### ✉️ Support\n- New **Contact support** button in Settings. It opens an email to support@playvikingsaga.com with your player ID, game version and phone already filled in."
+ },
+ {
+  "version": "1.0.196",
+  "date": "2026-10-31",
+  "notes": "### 🔧 Fixes\n- HOTFIX: Updating from the in-game update prompt could get stuck on \"Installing\". The game no longer reopens the update screen while an update is already running, and finishes downloaded updates by itself. If an update still fails, the update screen offers the Play Store page, and after another try a way to keep playing for now."
+ },
+ {
+  "version": "1.0.193",
+  "date": "2026-10-30",
+  "notes": "### ⚔️ Dungeons\n- Dungeons now start at the difficulty of the stage that opens them, so a newly opened dungeon is a real fight instead of a one-hit win.\n- The Sky Aerie is now called the Pet Aerie.\n\n### 🛒 Shop\n- New Speed + No-Ads bundle: both boosts and 500 gems for less than buying them separately.\n- New prices for the Chest of Gems (now a 20% bonus), 2x Speed and No-Ads.\n\n### 🔧 Fixes\n- Pets' heads no longer wobble when they flap their wings (most noticeable on the Sky Gryphon and Ember Whelp)."
+ },
+ {
+  "version": "1.0.190",
+  "date": "2026-10-30",
+  "notes": "### 🛒 Shop\n- Shop prices are higher: gem packs cost about twice as much (the Chest of Gems is now a 40% bonus), and runes, keys, tickets, gold, eggs, shards, the Premium Pass, 2x Speed and No-Ads cost more too. The first-day limited offers keep their prices."
+ },
+ {
+  "version": "1.0.188",
+  "date": "2026-10-30",
+  "notes": "### ⚖️ Balance\n- Runes are a little scarcer: enemies drop a rune 60% of the time instead of always, bosses drop 4, and offline runes are lower to match. Auto-forge can now run you out of runes.\n\n### 🔧 Fixes\n- Fixed big numbers losing their zeros, which made some prices look much cheaper than they are (230K showed as 23K, 100K as 1K)."
+ },
+ {
+  "version": "1.0.187",
+  "date": "2026-10-30",
+  "notes": "### 🔧 Fixes\n- Fixed big numbers losing their zeros, which made some prices look ten or a hundred times cheaper than they are (230K showed as 23K, 100K as 1K)."
+ },
+ {
+  "version": "1.0.185",
+  "date": "2026-10-30",
+  "notes": "### ⚒️ Forge\n- Each rarity now shows up a few forge levels early at tiny drop chances (0.02% rising to 1%), so there's something new to chase sooner. Draconic can drop from forge level 14.\n- The first five forge upgrades are much quicker: about 37 minutes together."
+ },
+ {
+  "version": "1.0.183",
+  "date": "2026-10-30",
+  "notes": "### ⚒️ Forge\n- Rarer gear comes sooner: Skyborne arrives around stage 13-5 and Crystalline around 45-1.\n- After Skyborne, forge upgrades are a real climb: tougher milestones, much higher gold costs and longer upgrades.\n- Enemies rebalanced to match: each rarity carries you until just after the next one arrives.\n\n### 🏆 Rankings\n- Rankings show the name you picked in the game instead of your Google Play name.\n\n### 🎨 Icons and text\n- Prices, rewards, sell buttons and pop-up messages use the new resource icons.\n- Dungeons now say \"Clear to get\" for their rewards."
+ },
+ {
+  "version": "1.0.181",
+  "date": "2026-10-30",
+  "notes": "### HOTFIX:\n- Removed the two-step equip screen. A new item shows next to your equipped one again, and Equip swaps them straight away.\n- The warnings stay: equipping a weaker item and selling an upgrade still ask first."
+ },
+ {
+  "version": "1.0.176",
+  "date": "2026-10-30",
+  "notes": "### ⚒️ Forging\n- New items now show on their own with the power and stat changes. Tap Equip to see your current piece, then sell it or keep it equipped.\n- Equipping an item that would lower your power now asks first.\n\n### 🐾 Pets\n- The pet slots on the battle screen now show the whole pet in a frame, like your profile picture."
+ },
+ {
+  "version": "1.0.175",
+  "date": "2026-10-30",
+  "notes": "### 🎁 Starter deals\n- Deal gear now has the item level of its rarity's era: the Draconic Sword is made for the Dragon Kingdoms, the Skyborne Pendant for the Sky Seas and the Steamforged Chestplate for the Steamforge Age. It lasts until you get there.\n\n### 📖 Tutorials\n- The auto-forge tutorials now walk you through picking a rarity and a bonus stat, not just pressing Confirm."
+ },
+ {
+  "version": "1.0.173",
+  "date": "2026-10-30",
+  "notes": "### 🎁 Starter deals\n- The new-player deal gear is now perfect: top item level, best main stat and maxed bonus stats, forged as if at the max forge level. It's far stronger than fresh gear.\n\n### 🏆 Rankings\n- Tower Rankings now open from the podium in the top corner of the Tower room.\n- New trophy icon on the Power Rankings button."
+ },
+ {
+  "version": "1.0.172",
+  "date": "2026-10-30",
+  "notes": "### 🖼️ Profile\n- Removed the unused \"Soon\" button in the Tower.\n- Settings shows your Google Play Games player ID under Cloud save."
+ },
+ {
+  "version": "1.0.171",
+  "date": "2026-10-30",
+  "notes": "### 🏆 Rankings\n- Power Rankings and Tower Rankings are now live on Google Play. Sign in to Google Play Games to see where you stand.\n- Removed the unused \"Soon\" button in the Tower."
+ },
+ {
+  "version": "1.0.168",
+  "date": "2026-10-30",
+  "notes": "### 🏆 Rankings\n- **Power Rankings** (in your profile) and **Tower Rankings** (in the Tower) show the top players on Google Play, with their pictures. Sign in to Google Play Games to join.\n\n### 🖼️ Profile pictures\n- Tap your picture in the profile to change it. Pick the hero in any era's outfit you've reached, or a boss you've beaten.\n\n### 💀 Bosses\n- Bosses now have a red horned skull next to their name."
+ },
+ {
+  "version": "1.0.165",
+  "date": "2026-10-30",
+  "notes": "### ✨ Changes\n- New heroes are now called **Runi** until you pick a name."
+ },
+ {
+  "version": "1.0.164",
+  "date": "2026-10-30",
+  "notes": "### ⚖️ Economy\n- **Runes are much easier to get:** every enemy drops a rune and bosses drop 5. The Rune Cave, the free Rune Sack and offline earnings give more runes too.\n- **Gold is scarcer:** enemies drop less gold and the Gold Mine gives half as much.\n\n### 🆕 Updates\n- The game version is shown under the loading bar and in Settings.\n- When a new version is out on Google Play, the game asks you to update before you keep playing. Your progress is kept."
+ },
+ {
+  "version": "1.0.162",
+  "date": "2026-10-30",
+  "notes": "### 🔧 Changes\n- Viking Saga Dev (the GitHub build) no longer offers cloud save; that's only in the Google Play version."
+ },
+ {
+  "version": "1.0.161",
+  "date": "2026-10-30",
+  "notes": "### 🔧 Changes\n- The GitHub builds are now a separate app, **Viking Saga Dev**, with a DEV badge on the icon, so they can be installed next to the Google Play version. The first time, install it as a new app; it starts with its own save."
+ },
+ {
+  "version": "1.0.157",
+  "date": "2026-10-30",
+  "notes": "### 🛒 Shop\n- New **Restore Purchases** button at the bottom of the shop. It brings back your Premium Pass, No-Ads and 2x Speed after a reinstall or on a new phone, plus any purchase that didn't finish."
+ },
+ {
+  "version": "1.0.153",
+  "date": "2026-10-29",
+  "notes": "### 🔧 Fixes\n- Refunded or charged-back purchases are now taken back properly, including gems, resources, starter gear and permanent unlocks."
+ },
+ {
+  "version": "1.0.151",
+  "date": "2026-10-29",
+  "notes": "### 🎁 New-player deals\n- For your first 24 hours, a limited offer sits on the left of the battle screen: a **Draconic Sword**, then a **Skyborne Pendant**, then a **Steamforged Chestplate**. Each one appears after you buy the one before.\n\n### 🔧 Fixes\n- The Retreat buttons in dungeons and the tower have smaller captions, so the button looks centred."
+ },
+ {
+  "version": "1.0.150",
+  "date": "2026-10-29",
+  "notes": "### ⚒️ The forge now follows the eras\n- Each gear rarity unlocks at the start of its era: **Draconic** gear arrives right before the Dragon Kingdoms, **Skyborne** before the Sky Seas, and so on up to **Crystalline**. The Viking Saga is Norse gear only.\n- The forge goes up to **level 120**, 20 levels per era. A new rarity starts rare and takes over during its era.\n- Every forge level makes forged gear **2% stronger**, so each upgrade counts.\n- Forge upgrades take longer: only the first three are under an hour, and the last ones take about 17 hours.\n- Forge milestones ask for more stages, power and forged items.\n\n### 👹 Enemies rebalanced\n- Enemies grow in step with the eras. A full set of each era's gear carries you to the start of the next era, where you'll need the next rarity.\n\n### 💎 Gems\n- Gems are rarer now: daily quests and power milestones pay out gold instead, the all-quests chest has fewer gems, and bosses drop fewer gems.\n\n### 🎨 New icons\n- Painted icons for Daily Login, Quests, the forge milestones (Stage, Power, Forged) and the Retreat button."
+ },
+ {
+  "version": "1.0.145",
+  "date": "2026-10-29",
+  "notes": "### 🛒 Bigger shop packs\n- Every paid pack now gives a lot more, and always beats a full day of free ad rewards:\n  - **Gems:** Pouch 200, Sack 1,400 (15% bonus), Chest 3,500 (35% bonus).\n  - **Rune Pouch** gives 20 Rune Sacks' worth of runes and the **Rune Chest** 80, both growing as you progress.\n  - **Gold Hoard** gives 16 Gold Purses' worth of gold.\n  - **Key Bundle:** 10 keys for every dungeon. **Tower Tickets:** 30 tickets.\n  - **Egg Basket:** 120 eggs (12 hatches). **Shard Cache:** 300 shards (12 summons).\n  - **No-Ads Pack** now comes with 500 gems.\n\n### 🎨 Shop fixes\n- Every pack shows what it gives with the new resource icons, including runes and gems.\n- The Egg Basket and Shard Cache now show how many eggs and shards they contain."
+ },
+ {
+  "version": "1.0.144",
+  "date": "2026-10-29",
+  "notes": "### ⚔️ Gear rebalance\n- **Rarity matters much more.** Each rarity step is a bigger jump in power, small at first and huge at the top. Mythic gear is about 30 times stronger than Common.\n- Enemies now grow more slowly after the first chapters, and each era asks for about one more rarity, so full **Crystalline (Mythic) gear can clear the last era**.\n\n### 🏷️ Gear rarities have era names\n- Gear rarities are now named after the eras their look comes from: **Norse** (Common), **Draconic** (Uncommon), **Skyborne** (Rare), **Steamforged** (Epic), **Arcane** (Legendary) and **Crystalline** (Mythic). Pets and mounts keep their usual rarity names.\n\n### 🐉 Pets and mounts\n- The hatch and summon odds open from the level bar, and you can page through every level to see its odds, just like the forge.\n- Removed the separate \"Summon Odds\" button and \"Hatch odds\" link."
+ },
+ {
+  "version": "1.0.143",
+  "date": "2026-10-29",
+  "notes": "### 🛒 Painted shop and Mastery\n- Every shop item has new painted art: the free chest, gem pouch, sack and chest, rune pouch and chest, key bundle, tower tickets, gold hoard, Premium Pass scroll, 2x Speed, No-Ads, the daily gold and rune buckets, and the new Egg Basket and Shard Cache.\n- All nine Mastery skills have matching painted medallions."
+ },
+ {
+  "version": "1.0.140",
+  "date": "2026-10-29",
+  "notes": "### 🛒 Shop\n- New in the shop: the **Egg Basket** (50 pet eggs, enough for 5 hatches) once pets are open, and the **Shard Cache** (125 mount shards, enough for 5 summons) once mounts are open.\n- Shop prices have been tidied up."
+ },
+ {
+  "version": "1.0.138",
+  "date": "2026-10-29",
+  "notes": "### 🏰 Tower\n- The torch flames in the Tower of Heroes no longer wobble; they just glow."
+ },
+ {
+  "version": "1.0.137",
+  "date": "2026-10-29",
+  "notes": "### 🐉 Livelier pets in battle\n- Your main pet now flies its own lazy loops above the battlefield instead of copying your hero's moves.\n- Pet abilities are easier to see: a flash bursts from the pet when it casts, heals and shields fly to your hero as a stream of glowing orbs, and shield plates snap into place around your hero.\n- The three pet slots now sit at the bottom of the battle scene, show each pet's face, and light up when that pet uses its ability.\n\n### ⚔️ Battles\n- Enemies in a wave are spaced out more so they don't pile on top of each other.\n- Winged and floating monsters (bats, ravens, harpies, imps, wisps, drakes and dragons) now fly above the ground instead of walking.\n- The Sky Aerie's Storm Drake is much bigger, to fit its cliff-top lair.\n\n### 🏰 Dungeons and tower\n- Dungeon cards and the tower card have a soft blur behind their text.\n- The tower guardian preview now stands on a lit backdrop."
+ },
+ {
+  "version": "1.0.135",
+  "date": "2026-10-29",
+  "notes": "### 🌄 Background tweaks\n- Dragon Kingdoms: the castle, flags and distant dragons stay still now; only the stream ripples, with sunlight and drifting pollen.\n- Sky Seas: no more wobbling. Spray rises where the waterfalls meet the clouds, and light motes drift in the sun.\n- Arcane Age: the little flames no longer wobble; they just glow."
+ },
+ {
+  "version": "1.0.134",
+  "date": "2026-10-29",
+  "notes": "### 🌄 Living painted backgrounds\n- Every era now has a painted battlefield: a snowy Viking fjord, the Dragon Kingdoms castle, the Sky Seas islands, the brass Steamforge city, the Arcane mushroom forest and the Crystal Era under the aurora.\n- The Gold Mine, Rune Cave, Sky Aerie, Beast Den and Tower of Heroes have new painted scenes too, on their cards and in the fights.\n- They're alive: snow falls on the fjord and chimney smoke rises, waterfalls and water ripple, banners and torch flames flicker, lanterns and runes glow, fireflies drift, the aurora waves, lightning flashes over the Sky Aerie, and something blinks in the dark of the Beast Den."
+ },
+ {
+  "version": "1.0.133",
+  "date": "2026-10-29",
+  "notes": "### 🏔️ New logo and loading screen\n- Viking Saga has a brand-new painted logo (the \"IDLE RPG\" ribbon now shows its white lettering): a baby dragon peeking over a Viking shield and crossed axes.\n- The loading screen is now a painted Viking village at sunrise, with the hero, his little dragon and the forge.\n- The app icon on your phone is new too: the little red dragon peeking over a Viking shield."
+ },
+ {
+  "version": "1.0.128",
+  "date": "2026-10-29",
+  "notes": "### 🧭 Painted menu icons\n- The Battle, Shop, Mastery and Dungeons buttons in the bottom bar have new painted icons.\n- The Mastery / Pets and Dungeons / Tower switches show painted icons too, and an empty mount slot shows a winged horseshoe."
+ },
+ {
+  "version": "1.0.127",
+  "date": "2026-10-29",
+  "notes": "### 💰 Painted resource icons\n- Gold, runes, gems, dungeon keys, tower tickets, mount shards and pet eggs have new painted icons, in the top bar, rewards, dungeons and everywhere else."
+ },
+ {
+  "version": "1.0.126",
+  "date": "2026-10-29",
+  "notes": "### 👾 Every monster is painted\n- The Steamforge Age, Arcane Age and Crystal Era monsters and bosses have brand-new painted art: Gremlin, Clockwork Golem, Rust Slime, Steam Bat, Boiler Orc, Iron Colossus, Gear King, Imp, Wisp, Mana Slime, Lich Acolyte, Shadow Bat, Archlich, Void Wisp, Crystal Golem, Prism Wisp, Crystal Slime, Shard Bat, Crystal Drake, Crystal Colossus and Prism Dragon.\n- The dungeon guardians are painted too: the Gold Golem, Cave Troll, Storm Drake and Alpha Beast.\n- They all move: golems punch, bats and dragons flap, wisps flicker, slimes wobble, smoke and steam drift, and the Cave Troll swings its club."
+ },
+ {
+  "version": "1.0.125",
+  "date": "2026-10-29",
+  "notes": "### 🎨 Every gear icon is painted\n- All 48 gear pieces now have new painted icons: weapons, helmets, armour, gloves, boots, belts, rings and amulets from all six eras (Viking Saga, Dragon Kingdoms, Sky Seas, Steamforge Age, Arcane Age and Crystal Era)."
+ },
+ {
+  "version": "1.0.124",
+  "date": "2026-10-29",
+  "notes": "### 🛡️ Dragon Kingdoms knight\n- Wearing Dragon Kingdoms armour now turns your hero into a shining dragon knight, plumed helm and all.\n- Longswords, great helms, plate, gauntlets, sabatons, girdles, signet rings and dragon talismans from the Dragon Kingdoms have new painted icons."
+ },
+ {
+  "version": "1.0.122",
+  "date": "2026-10-29",
+  "notes": "### 🧔 A brand-new painted hero\n- Your Viking has fresh painted art, and **his outfit changes with the armour you wear**: Viking chainmail and fur, a sky-pirate captain's coat, Steamforge brass, Arcane robes or glowing Crystal plate.\n- **Your weapon is in his hand**: from the starter hand-axe up to the rune axe, longsword, cutlass, steam hammer, wizard staff and crystal blade. It swings when he attacks.\n- Riding works with the new art: he sits in the saddle on every mount.\n- Your profile badge shows the new hero too.\n\n### 🪓 New gear icons (Viking Saga)\n- Axes, horned helms, chainmail, fur mitts, fur boots, belts, arm rings and hammer pendants from the Viking Saga have new painted icons."
+ },
+ {
+  "version": "1.0.119",
+  "date": "2026-10-29",
+  "notes": "### 🏴‍☠️ New monster art (Sky Seas)\n- Pirate Skeleton, Giant Crab, Sea Slime, Harpy and Goblin Deckhand, plus the bosses King Crab and Ghost Captain, have brand-new painted art.\n- They move too: crabs scuttle and snap their claws, the harpy flaps her wings, the sea slime jiggles with its seaweed swaying, the Ghost Captain floats with a rippling coat, and the pirates swing their cutlasses and hooks when they attack."
+ },
+ {
+  "version": "1.0.118",
+  "date": "2026-10-29",
+  "notes": "### 🐉 New monster art (Dragon Kingdoms)\n- Goblin, Wyrmling, Green Slime, Skeleton Knight and Cave Bat, plus the bosses Red Dragon and Orc Warlord, have brand-new painted art.\n- They come alive too: the bat and dragons beat their wings, the Red Dragon's fire flickers, the Orc Warlord's banner waves, the slime wobbles, and each one swings its knife, sword or cleaver when it attacks."
+ },
+ {
+  "version": "1.0.117",
+  "date": "2026-10-29",
+  "notes": "### 🐺 Living mounts\n- Mounts now really walk: legs stepping, tails and manes swishing, and the Fire Drake's flames flickering. Wings on the dragons move too.\n- **Tap any mount** to open its card: its stats, level, next-level bonus and a Ride / Dismount button, just like pets.\n\n### ⬆️ Summon levels\n- **Pet hatching and mount summons now level up.** Every hatch or summon fills the bar toward the next level, and each level makes Rare, Epic, Legendary and Mythic results likelier, up to level 10.\n- Tap the level bar to see the odds at your level and what the next level gives.\n\n### 👹 New monster art (Viking Saga)\n- Draugr, Frost Wolf, Ice Slime, Mountain Troll and Storm Raven, plus the bosses Frost Giant and Fenrir, have brand-new painted art.\n- They breathe, wobble and flap, and lean in to swing their axes, hammers and clubs when they attack."
+ },
+ {
+  "version": "1.0.116",
+  "date": "2026-10-29",
+  "notes": "### 🐺 New mount art\n- All 10 mounts have brand-new painted artwork: Grey Wolf, Brown Pony, Frost Wolf, War Horse, Shadow Wolf, Emerald Drake, Fire Drake, Golden Steed, Crystal Drake and Celestial Steed.\n- Your hero rides in the saddle in battle, and the new art shows on the mount page, in your gear and when you summon."
+ },
+ {
+  "version": "1.0.114",
+  "date": "2026-10-28",
+  "notes": "### 🪽 Living pets\n- Pets now really flap their wings, rising and tilting with every beat, and catch the light now and then.\n- In battle your main pet casts a shadow on the ground below it.\n\n### ✨ Pet ability effects\n- **Strike:** your main pet dives at the enemy and swoops back, leaving a trail, with a burst on impact. Your other pets throw a bolt.\n- **Shield:** a blue bubble forms around your hero and stays while the shield lasts.\n- **Heal:** a green glow with rising sparkles."
+ },
+ {
+  "version": "1.0.113",
+  "date": "2026-10-28",
+  "notes": "### 🎨 New pet art\n- All 10 pets have brand-new painted artwork: Ember Whelp, Frost Whelp, Storm Raven, Sky Gryphon, Venom Wyvern, Thunderbird, Golden Gryphon, Phoenix, Void Dragon and Celestial Gryphon.\n- The new art shows up everywhere: in battle, in the equipped-pet slots, on the Pets page and when a pet hatches."
+ },
+ {
+  "version": "1.0.112",
+  "date": "2026-10-28",
+  "notes": "### 🐉 Pet abilities\n- Every pet now has its own ability in battle, dungeons and the tower:\n  - **Strike** pets (Ember Whelp, Storm Raven, Venom Wyvern, Thunderbird, Void Dragon) hit the enemy hard every few seconds.\n  - **Shield** pets (Frost Whelp, Sky Gryphon, Golden Gryphon) cover your hero with a shield that takes hits first.\n  - **Heal** pets (Phoenix, Celestial Gryphon) heal your hero when hurt.\n- Rarer and higher-level pets have stronger abilities. Check a pet's page to see its ability.\n- Your hero's health bar shows the shield in blue.\n\n### 🪽 Pets in battle\n- The main pet is bigger and flies higher above your hero, so you can see it.\n- Three round slots above your gear show your equipped pets. Tap them to open the Pets page.\n\n### ℹ️ Loot info everywhere\n- Tap the rewards on the progression pass, daily login and quests to see what they're for and jump to where they're used.\n\n### ⚖️ Balance\n- The **Sky Aerie** now gives enough eggs to hatch a pet with every win.\n- Mastery skills cost more gold.\n- Enemies drop less gold, and selling gear gives less.\n- Finishing a forge upgrade with gems costs more.\n- Crit chance and crit damage now come only from gear, pets and mounts. Your hero no longer starts with any."
+ },
+ {
+  "version": "1.0.111",
+  "date": "2026-10-28",
+  "notes": "### 🐉 Pets\n- The **Mastery** tab is open to everyone (from stage 5-5), with a new star-and-wing icon and a **Pets** page.\n- **10 flying pets** to hatch: Ember Whelp, Frost Whelp, Storm Raven, Sky Gryphon, Venom Wyvern, Thunderbird, Golden Gryphon, Phoenix, Void Dragon and Celestial Gryphon.\n  - Dragons add attack, gryphons add health, birds add a bit of both.\n  - Duplicates level a pet up, to level 10.\n- Equip up to **3 pets**. The **main pet** (👑) flies behind your hero in every fight.\n- Hatch pets one at a time or **x5** with pet eggs.\n\n### 🪺 Sky Aerie\n- A new dungeon that gives **pet eggs**, opening at **stage 11-1** together with pets.\n- **Mounts and the Beast Den now open at 16-1.** If you already have a mount, you keep them.\n- The **Pet Double Drop** mastery skill now doubles eggs from the Sky Aerie.\n\n### ℹ️ Dungeon loot info\n- Tap the loot on a dungeon card to see what it's for, with buttons that take you straight to where it's used (forge upgrade, forging, mounts, pets, Mastery).\n\n### 🛠 Fixes and improvements\n- Tutorials are never hidden behind the new-gear window anymore. It closes when a tutorial starts, and auto-forge pauses.\n- The new-gear window only appears on the battle screen.\n- Refunded or charged-back purchases are taken back.\n- Google Play cloud save is switched on (Profile → Settings → Cloud save).\n- The shop retries loading prices from Google Play when it couldn't reach the store."
+ }
+]
