@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.206",
+  "date": "2026-11-01",
+  "notes": "### 🏆 New\n- **7 Days Challenge:** a week of goals that opens after chapter 1, with four new tasks each day. Tasks pay gems and challenge points, and points open five chests along the way. Find it in the side rail.\n- **Weekly quests:** a new Weekly tab in Quests with bigger goals and a weekly chest. They reset every Monday.\n\n### ⚙️ Changes\n- Updates use Google Play's update prompt again. The update downloads while you play, installs on its own, and the game restarts by itself if it doesn't come back after installing.\n- The Sweep button in dungeons is blue when you have a key to sweep with, and grey when you don't."
+ },
+ {
   "version": "1.0.203",
   "date": "2026-11-01",
   "notes": "### 🔧 Fixes\n- HOTFIX: Updating no longer uses Google Play's in-app update screen, which could get stuck on \"Installing\". The update button now opens the game's Play Store page, where you tap Update. If you come back without updating, you can keep playing for now."
