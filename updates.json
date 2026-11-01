@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.15",
+  "date": "2026-11-01",
+  "notes": "### 🏆 Rankings\n- Tower Rankings show floors as tower and floor, like \"Floor 8-10\", instead of one big number.\n\n### ☁️ Cloud save\n- The game asks you to link Google Play cloud save on your first start, and again each time you reach a new era, so your progress is never lost. Once linked, it stops asking.\n- After linking, heroes still called Runi are asked to pick a name for the rankings, with your Google Play Games name filled in."
+ },
+ {
   "version": "1.0.14",
   "date": "2026-11-01",
   "notes": "### 🗝️ Dungeon keys\n- Every dungeon now has its own key with its own look: a golden pickaxe key for the Gold Mine, a rune-stone key for the Rune Cave, a nest key for the Pet Aerie and a wolf key for the Beast Den.\n- Rewards now say which dungeon's key you get. Pet Aerie and Beast Den keys are rarer than the others.\n- The Key Bundle has new art and gives 5 keys for every dungeon.\n\n### 🐉 Summons\n- Legendary pets and mounts now start showing up from summon level 5, and Mythic ones from summon level 8."
