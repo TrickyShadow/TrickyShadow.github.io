@@ -125,6 +125,19 @@
 
   footer { color: var(--muted); font-size: .92rem; border-top: 1px solid var(--line); margin-top: 40px; padding-block: 18px 34px; display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
   footer a { color: var(--muted); }
+  dialog.join { max-width: 30rem; width: calc(100% - 32px); border: 2px solid var(--line); border-radius: 18px; padding: 0; background: var(--panel); color: var(--fg); }
+  dialog.join::backdrop { background: rgba(8, 10, 24, .7); }
+  .join-body { padding: 22px 20px 18px; display: grid; gap: 14px; }
+  .join-body h2 { font-size: 1.6rem; }
+  .join-body > p { margin: 0; color: var(--muted); }
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: step; }
+  .steps li { counter-increment: step; display: grid; grid-template-columns: 2.2rem 1fr; gap: 4px 12px; align-items: center; background: var(--sky); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+  .steps li::before { content: counter(step); grid-row: span 2; width: 2.2rem; height: 2.2rem; border-radius: 50%; display: grid; place-items: center; background: var(--gold); color: var(--ink-on-gold); font: 800 1.1rem var(--display); }
+  .steps b { font-size: 1.05rem; }
+  .steps span { color: var(--muted); font-size: .95rem; }
+  .steps .btn { grid-column: 2; justify-self: start; padding: 8px 16px; font-size: .98rem; margin-top: 4px; }
+  .join-note { font-size: .88rem; color: var(--muted); margin: 0; }
+  .join-close { justify-self: end; font: inherit; font-weight: 700; color: var(--muted); background: none; border: 0; cursor: pointer; padding: 6px 4px; }
 </style>
 </head>
 <body>
@@ -146,13 +159,14 @@
     <h1>Forge your legend in <span>Viking Saga</span></h1>
     <p>An idle RPG for Android. Forge gear, fight monster waves through six eras from the Viking north to a crystal age, hatch flying pets and tame mounts. Your hero keeps fighting while you're away.</p>
     <div class="cta">
-      <a class="btn play" href="https://play.google.com/store/apps/details?id=com.trickyshadow.vikingsaga" rel="noopener">
+      <!-- Closed testing: joining the tester group is what lets a player in. Without scripts the link still goes there. -->
+      <a class="btn play" id="join-btn" href="https://groups.google.com/g/vikingsaga-testers" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6z"/></svg>
-        Get it on Google Play
+        Join the test
       </a>
       <a class="btn ghost" href="#updates">What's new</a>
     </div>
-    <span class="tester">Currently in closed testing.</span>
+    <span class="tester">In closed testing on Google Play. Anyone can join.</span>
   </div>
 
   <section aria-labelledby="features-title">
@@ -207,7 +221,43 @@
   </footer>
 </div>
 
+<dialog class="join" id="join" aria-labelledby="join-title">
+  <div class="join-body">
+    <h2 id="join-title">Join the test</h2>
+    <p>Viking Saga is in closed testing on Google Play. It takes three taps, and your progress carries over when the game launches.</p>
+    <ol class="steps">
+      <li>
+        <b>Join the tester group</b>
+        <span>Tap <em>Join group</em>, signed in with the Google account on your phone.</span>
+        <a class="btn ghost" href="https://groups.google.com/g/vikingsaga-testers" target="_blank" rel="noopener">Open the group</a>
+      </li>
+      <li>
+        <b>Become a tester</b>
+        <span>Tap <em>Become a tester</em> on Google's page.</span>
+        <a class="btn ghost" href="https://play.google.com/apps/testing/com.trickyshadow.vikingsaga" target="_blank" rel="noopener">Become a tester</a>
+      </li>
+      <li>
+        <b>Install from Google Play</b>
+        <span>The game now shows up on Google Play for you.</span>
+        <a class="btn play" href="https://play.google.com/store/apps/details?id=com.trickyshadow.vikingsaga" target="_blank" rel="noopener">Get it on Google Play</a>
+      </li>
+    </ol>
+    <p class="join-note">Use the same Google account for every step. If Google Play doesn't show the game yet, wait a few minutes after joining and try again.</p>
+    <button class="join-close" type="button" id="join-close">Close</button>
+  </div>
+</dialog>
+
 <script>
+  // "Join the test" opens the steps instead of going straight to the group.
+  const joinDialog = document.getElementById("join");
+  document.getElementById("join-btn").addEventListener("click", e => {
+    if (typeof joinDialog.showModal !== "function") return;
+    e.preventDefault();
+    joinDialog.showModal();
+  });
+  document.getElementById("join-close").addEventListener("click", () => joinDialog.close());
+  joinDialog.addEventListener("click", e => { if (e.target === joinDialog) joinDialog.close(); });
+
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/`(.+?)`/g, "<code>$1</code>");
 
