@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.203",
+  "date": "2026-11-01",
+  "notes": "### 🔧 Fixes\n- HOTFIX: Updating no longer uses Google Play's in-app update screen, which could get stuck on \"Installing\". The update button now opens the game's Play Store page, where you tap Update. If you come back without updating, you can keep playing for now."
+ },
+ {
   "version": "1.0.199",
   "date": "2026-10-31",
   "notes": "### ✉️ Support\n- New **Contact support** button in Settings. It opens an email to support@playvikingsaga.com with your player ID, game version and phone already filled in."
