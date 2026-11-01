@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.16",
+  "date": "2026-11-01",
+  "notes": "### 🔧 Fixes\n- HOTFIX: Updates no longer get stuck on Google Play's \"Installing…\" screen. The update downloads while you play and installs quietly once you leave the game, so the next time you open it you're on the new version.\n- HOTFIX: The game stays locked until you install a new update, using Google Play's update screen. If Google Play stays on \"Installing…\" after the update is in, the game now opens by itself, or shows a \"Viking Saga is updated – tap to play\" notification."
+ },
+ {
   "version": "1.0.15",
   "date": "2026-11-01",
   "notes": "### 🏆 Rankings\n- Tower Rankings show floors as tower and floor, like \"Floor 8-10\", instead of one big number.\n\n### ☁️ Cloud save\n- The game asks you to link Google Play cloud save on your first start, and again each time you reach a new era, so your progress is never lost. Once linked, it stops asking.\n- After linking, heroes still called Runi are asked to pick a name for the rankings, with your Google Play Games name filled in."
