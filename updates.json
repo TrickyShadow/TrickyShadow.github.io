@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.18",
+  "date": "2026-11-01",
+  "notes": "### 🏆 Rankings\n- Power Rankings show how far each player has got, e.g. \"Stage 21-6\"."
+ },
+ {
   "version": "1.0.17",
   "date": "2026-11-01",
   "notes": "### ⚖️ Balance\n- Mastery costs more the further ahead of your stage you are, so it spreads over the whole game instead of filling up in era 2. Expect about a third of Mastery by the end of era 2.\n- Enemies and offline earnings give 25% less gold.\n\n### ⚒️ Forge\n- When a forge upgrade's timer runs out, tap **Finish upgrade** to get the new level.\n- The forging milestone only counts items forged after you finish an upgrade, and asks for more forging, so you have to keep forging between upgrades.\n\n### 🆕 New\n- After every update, a **What's New** popup shows what changed."
