@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.19",
+  "date": "2026-11-02",
+  "notes": "### ⚖️ Balance\n- The Gold Gain and Offline Earnings Mastery skills give 1% per level, up to +10%.\n- Mastery skills give 1% per level, up to +10%: Attack, Health, Attack Speed, Gold Gain, Offline Earnings and Forge Speed.\n- Mount Double Drop and Pet Double Drop give 0.5% per level, up to 5%."
+ },
+ {
   "version": "1.0.18",
   "date": "2026-11-01",
   "notes": "### 🏆 Rankings\n- Power Rankings show how far each player has got, e.g. \"Stage 21-6\"."
