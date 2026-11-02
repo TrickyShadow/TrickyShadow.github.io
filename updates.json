@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.21",
+  "date": "2026-11-02",
+  "notes": "### 🛠️ Fixes\n- When a new version is out, the game opens its Google Play page and closes, so you update there instead of getting stuck on \"Installing…\"."
+ },
+ {
   "version": "1.0.20",
   "date": "2026-11-02",
   "notes": "### 🏆 Rankings\n- New **Stage Rankings** under Power Rankings: see who has got furthest, e.g. \"Stage 21-6\".\n- Power Rankings show power only again, and every ranking list has new icons."
