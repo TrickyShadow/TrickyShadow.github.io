@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.22",
+  "date": "2026-11-03",
+  "notes": "### 🏅 New: Achievements\n- 14 achievements with tiers that pay gems, from forging and slaying monsters to collecting pets and mounts. Open them from your Profile.\n- A red \"!\" on your profile shows when a tier is ready to claim.\n- Enemies defeated, bosses defeated and daily quests count from this update on.\n\n### 🎨 Changes\n- The Profile is tidier: your picture, name, rankings and achievements. Tap the new **?** under your gear to see your hero: power, gear and all your stats.\n- The side rail and its windows (Daily Login, Quests, Pass, 7 Days Challenge, Achievements) use the same colours as the rest of the game."
+ },
+ {
   "version": "1.0.21",
   "date": "2026-11-02",
   "notes": "### 🛠️ Fixes\n- When a new version is out, the game opens its Google Play page and closes, so you update there instead of getting stuck on \"Installing…\"."
