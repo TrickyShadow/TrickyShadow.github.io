@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.25",
+  "date": "2026-11-04",
+  "notes": "### ⚒ Forging pays off\n- The more you forge of a gear type and rarity, kept or sold, the higher the level new pieces of it come out at: +1 after 5, +2 after 15, +3 after 30, up to **+20 levels**.\n- A new rarity starts from its own count. Existing players get a head start from everything they've forged so far.\n\n### ⚔️ Battles feel bigger\n- Chapter bosses, dungeon guardians, the Raid Boss and each Tower's floor 10 make an entrance: \"FENRIR approaches!\"\n- Floor 10 of every Tower now has **two bosses**, fought one after the other.\n- Critical hits and skill hits punch in big, with a short impact pause.\n- The last enemy of a wave goes flying in slow motion; bosses end with a **VICTORY!**\n- Coins fly to your gold when you clear a stage.\n- Don't like the screen shake? Turn it off in Profile → Settings.\n\n### 🛠 Fixes\n- Weapons are now gripped in your hero's fist instead of resting behind the hand.\n- Dungeon, raid and tower popups are more compact and scrollable to stay clear of phone navigation buttons."
+ },
+ {
   "version": "1.0.24",
   "date": "2026-11-04",
   "notes": "### 🎨 Changes\n- The Arcane staff is now ranged: your hero stays back and shoots magic orbs at the enemy.\n\n### 🛠 Fixes\n- Updating works again: when a new version is out, Google Play offers to update and restarts the game for you. If you skip it, the game waits on an **Update** button that opens Google Play, instead of closing.\n- Weapons now sit properly in your hero's hand in every outfit."
