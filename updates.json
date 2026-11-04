@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.23",
+  "date": "2026-11-04",
+  "notes": "### 👹 New: Raid Boss\n- A giant boss arrives every Monday in the Dungeons tab (Raid, from 3-1).\n- Attack it twice a day for 30 seconds. All your damage this week adds up and unlocks 8 reward tiers: gems, keys, runes, eggs, mount shards and more.\n- Goals are set from your own strength, so everyone can reach the top tier by attacking every day.\n- Rewards you reach but forget to claim are sent to you when the week ends.\n- Goals are set from how hard your first attack of the week hits (gear, skills and pets), so the top tier takes most of the week for everyone.\n\n### 🎨 Changes\n- Profile: Achievements is on top, with Power and Stage Rankings side by side below it.\n- New painted art for all hero skills, skill books, the Ancient Library and its Lorekeeper and key, the Raid tab and arena, and Achievements.\n\n### ⚡ New: Hero Skills\n- Learn active skills that fire by themselves in every battle: Thunder Strike, Second Wind, Whirlwind, Shield Wall, Berserk, Battle Cry, Frost Nova and Execute.\n- Equip up to 3 in the new **Skills** tab under Mastery. Duplicates level a skill up, to level 10.\n- Skill books come from the new **Ancient Library** dungeon. Both open at 6-1."
+ },
+ {
   "version": "1.0.22",
   "date": "2026-11-03",
   "notes": "### 🏅 New: Achievements\n- 14 achievements with tiers that pay gems, from forging and slaying monsters to collecting pets and mounts. Open them from your Profile.\n- A red \"!\" on your profile shows when a tier is ready to claim.\n- Enemies defeated, bosses defeated and daily quests count from this update on.\n\n### 🎨 Changes\n- The Profile is tidier: your picture, name, rankings and achievements. Tap the new **?** under your gear to see your hero: power, gear and all your stats.\n- The side rail and its windows (Daily Login, Quests, Pass, 7 Days Challenge, Achievements) use the same colours as the rest of the game."
