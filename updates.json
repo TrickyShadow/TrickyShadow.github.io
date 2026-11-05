@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.27",
+  "date": "2026-11-05",
+  "notes": "### ⚖️ Balance\n- Forged gear levels were far too strong. Each level from forging now adds **+3%** to the item's main stat (campaign levels still add 9%), up to **+10 levels**: +1 after 10 forges of a gear type and rarity, +2 after 30, +3 after 60, … +10 after 550.\n- Gear that got extra levels under the old rules is brought in line when you open the game.\n- Selling gear pays for its campaign level only.\n- Weapons are held properly: every weapon sits in the hand by its grip, with the fingers wrapped around it, through every swing.\n\n### 🐛 Fixes\n- The \"Boss!\" label on the stage banner's wave bar is now readable instead of cut off."
+ },
+ {
   "version": "1.0.26",
   "date": "2026-11-04",
   "notes": "### ⚖️ Balance\n- Forged gear levels were far too strong. Each level from forging now adds **+3%** to the item's main stat (campaign levels still add 9%), up to **+10 levels**: +1 after 10 forges of a gear type and rarity, +2 after 30, +3 after 60, … +10 after 550.\n- Gear that got extra levels under the old rules is brought in line when you open the game.\n- Selling gear pays for its campaign level only."
