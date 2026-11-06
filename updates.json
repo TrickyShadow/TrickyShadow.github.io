@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.30",
+  "date": "2026-11-06",
+  "notes": "### ✨ New\n- **Chat & Friends!** The newest chat messages now show just above the tabs on the Battle screen. Tap them to open the chat and talk with other Vikings.\n- **Friends tab:** share your friend code, add players by their code or by tapping their name in the chat, and see your friends' power, stage and who's online.\n- Tap a name in the chat to block or report a player. You can delete your chat account any time from the Friends tab."
+ },
+ {
   "version": "1.0.29",
   "date": "2026-11-06",
   "notes": "### ⚖️ Balance\n- Chapter bosses give gems only the first time you beat them. Beating a boss again on a stage you've already cleared still gives gold and hammers."
