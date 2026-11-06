@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="How to delete your Viking Saga's Idle RPG account and data.">
+<title>Delete Your Account – Viking Saga's Idle RPG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<style>
+  /* Layout: one readable column, like a rune-carved notice; slate and gold from the game's UI. */
+  :root {
+    --bg: #f3f4f7;
+    --surface: #ffffff;
+    --fg: #23262f;
+    --muted: #5a6072;
+    --line: #d9dce5;
+    --accent: #8a5a12;
+    --accent-soft: #fbf1dc;
+    --display: "Alegreya SC", Georgia, "Times New Roman", serif;
+    --body: "Alegreya Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #2f333f; --surface: #3a3f4e; --fg: #eef0f5; --muted: #c3c8d6;
+      --line: #555b70; --accent: #ffc94d; --accent-soft: #4a4433; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #2f333f; --surface: #3a3f4e; --fg: #eef0f5; --muted: #c3c8d6;
+    --line: #555b70; --accent: #ffc94d; --accent-soft: #4a4433; color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  .page {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 2.5rem 4rem;
+    display: grid;
+    gap: 2rem;
+  }
+  header { display: grid; gap: 0.5rem; }
+  .eyebrow {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  h1, h2 { font-family: var(--display); text-wrap: balance; line-height: 1.2; margin: 0; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); }
+  h2 { font-size: 1.35rem; }
+  .meta { color: var(--muted); margin: 0; }
+  .meta code { word-break: break-all; }
+  .summary {
+    background: var(--accent-soft);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    display: grid;
+    gap: 0.4rem;
+  }
+  .summary p { margin: 0; }
+  .summary ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.25rem; }
+  section { display: grid; gap: 0.6rem; min-width: 0; }
+  section p, section ul { margin: 0; }
+  section ul { padding-left: 1.2rem; display: grid; gap: 0.35rem; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 32rem; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--line); }
+  tr:last-child td { border-bottom: 0; }
+  th { font-weight: 700; color: var(--muted); font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; }
+  .contact {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.8rem 1rem;
+  }
+  .contact code { font-family: var(--body); font-weight: 700; user-select: all; word-break: break-all; }
+  .contact button {
+    font: inherit; font-size: 0.9rem; cursor: pointer;
+    background: transparent; color: var(--accent); border: 1px solid var(--accent); border-radius: 6px; padding: 0.2rem 0.7rem;
+  }
+  ol { margin: 0; padding-left: 1.4rem; display: grid; gap: 0.35rem; }
+  .mail-btn { display: inline-block; background: var(--accent); color: var(--bg); font-weight: 700; text-decoration: none;
+    border-radius: 8px; padding: 0.55rem 1rem; }
+  footer { color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+</style>
+<style>body{margin:0}*{box-sizing:border-box}</style>
+</head>
+<body>
+
+<div class="page">
+  <header>
+    <a class="eyebrow" href="/" style="text-decoration:none">← Viking Saga's Idle RPG</a>
+    <h1>Delete Your Account and Data</h1>
+    <p class="meta">Viking Saga's Idle RPG by TrickyShadow · App package <code>com.trickyshadow.vikingsaga</code></p>
+  </header>
+
+  <div class="summary">
+    <p><strong>In short</strong></p>
+    <ul>
+      <li>Your game account is the chat and friends account on our server. Delete it in the game in a few taps, or email us and we delete it for you.</li>
+      <li>Everything on our server about you is deleted. Nothing is kept, apart from server backups, which are erased within 30 days.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>Delete it in the game</h2>
+    <ol>
+      <li>Open the game and tap the chat bar just above the tabs at the bottom of the Battle screen.</li>
+      <li>Open the <strong>Friends</strong> tab.</li>
+      <li>Scroll down and tap <strong>Delete my chat account</strong>, then <strong>Delete</strong>.</li>
+    </ol>
+    <p>Your account is deleted right away. Your game progress on the phone is not touched; opening the chat again makes a new, empty account.</p>
+  </section>
+
+  <section>
+    <h2>Or ask us to delete it</h2>
+    <p>No longer have the game? Email us from any address with the name of your hero (and your friend code, if you know it). We delete the account within 30 days and reply to confirm.</p>
+    <p><a class="mail-btn" href="mailto:support@playvikingsaga.com?subject=Delete%20my%20Viking%20Saga%20account&amp;body=Please%20delete%20my%20account.%0A%0AHero%20name%3A%20%0AFriend%20code%20(if%20known)%3A%20">Email a deletion request</a></p>
+    <div class="contact">
+      <code id="email">support@playvikingsaga.com</code>
+      <button type="button" id="copy">Copy</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>What is deleted</h2>
+    <ul>
+      <li>your account: Play Games player ID, hero name, profile picture, power and stage,</li>
+      <li>your hero card (the gear, mount and stats other players could see) and the resource readings your game reported,</li>
+      <li>all your chat messages, friends and friend requests, the players you blocked,</li>
+      <li>reports you sent or that were made about you, moderation notes about you, and any server mail (gifts or corrections),</li>
+      <li>the sign-in keys for your phones.</li>
+    </ul>
+    <p><strong>Kept:</strong> nothing. Copies of the server database made before updates are kept for at most 30 days and then erased, so your data is gone from those within 30 days too.</p>
+  </section>
+
+  <section>
+    <h2>Data we don't hold</h2>
+    <ul>
+      <li><strong>Game progress on your phone:</strong> removed when you uninstall the game.</li>
+      <li><strong>Google Play cloud save:</strong> stored in your Google account. Delete it in the game with <strong>Profile → Settings → Cloud save → Unlink &amp; delete</strong>, or in the Google Play Games app.</li>
+      <li><strong>Purchases and ads:</strong> handled by Google; see the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+    </ul>
+    <p>More in our <a href="/privacy">Privacy Policy</a>.</p>
+  </section>
+
+  <footer>
+    Viking Saga's Idle RPG · TrickyShadow · <a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Service</a>
+  </footer>
+</div>
+
+<script>
+  document.getElementById("copy").addEventListener("click", function () {
+    var button = this;
+    var text = document.getElementById("email").textContent;
+    function selectIt() {
+      var range = document.createRange();
+      range.selectNodeContents(document.getElementById("email"));
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      button.textContent = "Selected";
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { button.textContent = "Copied"; }, selectIt);
+    } else {
+      selectIt();
+    }
+  });
+</script>
+
+</body>
+</html>
