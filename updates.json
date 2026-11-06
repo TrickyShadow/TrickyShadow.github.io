@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.29",
+  "date": "2026-11-06",
+  "notes": "### ⚖️ Balance\n- Chapter bosses give gems only the first time you beat them. Beating a boss again on a stage you've already cleared still gives gold and hammers."
+ },
+ {
   "version": "1.0.28",
   "date": "2026-11-05",
   "notes": "### ✨ New\n- New hero art for every outfit: the hero really grips his weapon now, fingers wrapped around the handle, through every swing.\n- Riding looks right: the hero sits in the saddle with his leg down the mount's side, instead of a standing picture cut in half at the belt."
