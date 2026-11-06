@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.31",
+  "date": "2026-11-07",
+  "notes": "### 🐛 Fixes\n- Phones with a large display size or font size (like Samsung's \"Screen zoom\") no longer squish the battle scene: the game now scales itself to fit, so it looks the same on every phone.\n- Before the tabs unlock, the chat no longer hides under the phone's navigation buttons.\n- **Fullscreen:** the phone's navigation bar is now hidden while you play, giving the game more room. Swipe up from the bottom edge to bring it back for a moment, or turn Fullscreen off in Settings.\n\n### ✨ New\n- **Mailbox:** gifts from the Viking Saga team now arrive in a mailbox popup to claim.\n- **See other heroes:** tap a name in the chat to see that player's gear, stats and mount. Tap any of their items for its stats.\n- Friends' power now stays up to date.\n- Reporting a player for \"Something else\" now lets you write what happened."
+ },
+ {
   "version": "1.0.30",
   "date": "2026-11-06",
   "notes": "### ✨ New\n- **Chat & Friends!** The newest chat messages now show just above the tabs on the Battle screen. Tap them to open the chat and talk with other Vikings.\n- **Friends tab:** share your friend code, add players by their code or by tapping their name in the chat, and see your friends' power, stage and who's online.\n- Tap a name in the chat to block or report a player. You can delete your chat account any time from the Friends tab."
