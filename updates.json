@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.32",
+  "date": "2026-11-07",
+  "notes": "### ✨ New\n- **Power saving screen:** tap the 🌙 button under your profile on the battle screen. The screen goes dark and dim while your hero keeps fighting, and it shows only what you've earned since: gold, gems, runes, eggs, shards, books, enemies and bosses defeated. Tap anywhere to wake the game up.\n- **Keep screen on:** your phone no longer goes to sleep while the game is open, so your hero keeps earning. Turn it off in Settings."
+ },
+ {
   "version": "1.0.31",
   "date": "2026-11-07",
   "notes": "### 🐛 Fixes\n- Phones with a large display size or font size (like Samsung's \"Screen zoom\") no longer squish the battle scene: the game now scales itself to fit, so it looks the same on every phone.\n- Before the tabs unlock, the chat no longer hides under the phone's navigation buttons.\n- **Fullscreen:** the phone's navigation bar is now hidden while you play, giving the game more room. Swipe up from the bottom edge to bring it back for a moment, or turn Fullscreen off in Settings.\n\n### ✨ New\n- **Mailbox:** gifts from the Viking Saga team now arrive in a mailbox popup to claim.\n- **See other heroes:** tap a name in the chat to see that player's gear, stats and mount. Tap any of their items for its stats.\n- Friends' power now stays up to date.\n- Reporting a player for \"Something else\" now lets you write what happened."
