@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.33",
+  "date": "2026-11-07",
+  "notes": "### 🐛 Fixes\n- On some phones the game opened zoomed in and cut off right after an update, until it was restarted. It now opens normally: after an update, tap the \"Viking Saga is updated\" notification (or open the game) to play the new version."
+ },
+ {
   "version": "1.0.32",
   "date": "2026-11-07",
   "notes": "### ✨ New\n- **Power saving screen:** tap the 🌙 button under your profile on the battle screen. The screen goes dark and dim while your hero keeps fighting, and it shows only what you've earned since: gold, gems, runes, eggs, shards, books, enemies and bosses defeated. Tap anywhere to wake the game up.\n- **Keep screen on:** your phone no longer goes to sleep while the game is open, so your hero keeps earning. Turn it off in Settings."
