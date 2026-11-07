@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.34",
+  "date": "2026-11-07",
+  "notes": "### ⚔️ Skills rebalanced\n- **Every skill fires at the start of a fight:** entering a dungeon, a tower floor or a raid attack (and when a campaign boss walks in), all your equipped skills go off at once, then their cooldowns start.\n- Rarer skills now hit harder, so Epic, Legendary and Mythic skills beat the common ones:\n  - **Berserk:** +100% attack speed for 7s, every 14s (was +60% for 5s, every 16s).\n  - **Battle Cry:** +100% attack for 8s, every 16s (was +50% for 6s, every 18s).\n  - **Frost Nova:** 600% damage to the wave (was 300%).\n  - **Whirlwind:** 300% damage to the wave (was 180%).\n  - **Thunder Strike:** 200% damage (was 250%).\n  - **Execute:** 800% damage, double on weakened enemies (was 1000%).\n- Berserk no longer goes to waste when your attacks are already at top speed: the extra speed turns into extra damage.\n\n### 🐛 Fixes\n- Changing your name or picture now updates it on your earlier chat messages straight away, for everyone in the chat."
+ },
+ {
   "version": "1.0.33",
   "date": "2026-11-07",
   "notes": "### 🐛 Fixes\n- On some phones the game opened zoomed in and cut off right after an update, until it was restarted. It now opens normally: after an update, tap the \"Viking Saga is updated\" notification (or open the game) to play the new version."
