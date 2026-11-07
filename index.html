@@ -89,6 +89,8 @@
   .btn.play:active { transform: translateY(2px); box-shadow: 0 2px 0 #8a5a12; }
   .btn.ghost { color: var(--fg); border: 2px solid var(--line); background: rgba(255, 255, 255, .03); }
   .btn svg { width: 20px; height: 20px; flex: none; }
+  .btn.discord { color: #fff; background: #5865f2; border: 2px solid #3c45a5; box-shadow: 0 4px 0 #3c45a5; }
+  .btn.discord:active { transform: translateY(2px); box-shadow: 0 2px 0 #3c45a5; }
   .tester { font-size: .92rem; color: var(--muted); }
 
   section { padding-block: 34px 6px; display: grid; gap: 18px; scroll-margin-top: 12px; }
@@ -164,6 +166,10 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.3-9.4c.4-.3.4-.9 0-1.2L4.9 2c-.4-.2-.9.1-.9.6z"/></svg>
         Join the test
       </a>
+      <a class="btn discord" href="https://discord.gg/WvfGPwhQN2" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.3 5.3A17 17 0 0 0 15 4l-.5 1.1a15.6 15.6 0 0 0-5 0L9 4a17 17 0 0 0-4.3 1.3C2 9.4 1.2 13.4 1.6 17.3a17.2 17.2 0 0 0 5.3 2.7l1.1-1.8a11 11 0 0 1-1.7-.8l.4-.3a12.2 12.2 0 0 0 10.6 0l.4.3c-.5.3-1.1.6-1.7.8l1.1 1.8a17.1 17.1 0 0 0 5.3-2.7c.5-4.5-.8-8.5-3.1-12ZM8.7 14.9c-1 0-1.9-1-1.9-2.1s.8-2.1 1.9-2.1 1.9 1 1.9 2.1-.8 2.1-1.9 2.1Zm6.6 0c-1 0-1.9-1-1.9-2.1s.8-2.1 1.9-2.1 1.9 1 1.9 2.1-.8 2.1-1.9 2.1Z"/></svg>
+        Join our Discord
+      </a>
       <a class="btn ghost" href="#updates">What's new</a>
     </div>
     <span class="tester">In closed testing on Google Play. Anyone can join.</span>
@@ -212,11 +218,12 @@
         <code id="email">support@playvikingsaga.com</code>
         <button type="button" id="copy-email">Copy</button>
       </div>
+      <p>Questions, tips or bug reports? Players and the team hang out on our <a href="https://discord.gg/WvfGPwhQN2" target="_blank" rel="noopener">Discord</a>.</p>
     </div>
   </section>
 
   <footer>
-    <span>© TrickyShadow · Viking Saga's Idle RPG</span>
+    <span>© TrickyShadow · Viking Saga Idle RPG</span>
     <span><a href="/terms">Terms of service</a> · <a href="/privacy">Privacy policy</a></span>
   </footer>
 </div>
