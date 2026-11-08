@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.39",
+  "date": "2026-11-08",
+  "notes": "### 🔨 Forge\n- From Skyborne (forge level 40) on, each forge upgrade takes a day, growing to about two days for the last levels, so the endgame forge is a long-term goal. Upgrades already running keep their timer.\n- Gems can finish these endgame upgrades at any time, but finishing early is expensive: the price drops as the timer runs down.\n- New: watch an ad to take 30 minutes off a running forge upgrade, up to 3 times a day (free with No Ads).\n\n### ⚔️ Fights\n- Dungeons, the Tower, the Raid Boss and the Clan Boss now show your skill and pet squares, so you can watch their cooldowns during the fight.\n- Pet squares now show their cooldown too, like skills.\n\n### 🛡️ Clans\n- The clan boss's damage ranking for the week is now behind the 🏆 button on the boss picture.\n- The Clan tab's button now shows your clan's banner.\n- A clan can now have at most 2 Huscarls besides its Jarl.\n\n### 🎨 Look\n- The tab bar at the bottom has a new, roomier look: one flat bar with bigger icons.\n\n### 🐛 Fixes\n- The forge upgrade buttons' text no longer wraps oddly on some phones.\n- The chat now remembers whether you were in your clan chat or Global: it opens there again, and the chat bar shows that chat's latest lines."
+ },
+ {
   "version": "1.0.38",
   "date": "2026-11-08",
   "notes": "### 🔨 Forge\n- From Skyborne (forge level 40) on, each forge upgrade takes a day, growing to about two days for the last levels, so the endgame forge is a long-term goal. Upgrades already running keep their timer.\n- Gems can only finish these endgame upgrades in their last 4 hours.\n- New: watch an ad to take 30 minutes off a running forge upgrade, up to 3 times a day (free with No Ads)."
