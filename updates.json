@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.38",
+  "date": "2026-11-08",
+  "notes": "### 🔨 Forge\n- From Skyborne (forge level 40) on, each forge upgrade takes a day, growing to about two days for the last levels, so the endgame forge is a long-term goal. Upgrades already running keep their timer.\n- Gems can only finish these endgame upgrades in their last 4 hours.\n- New: watch an ad to take 30 minutes off a running forge upgrade, up to 3 times a day (free with No Ads)."
+ },
+ {
   "version": "1.0.37",
   "date": "2026-11-07",
   "notes": "### ⚔ Raid Boss\n- Raid goals now keep up with you: if you get much stronger during the week (like a jump to Skyborne or better gear), the reward goals grow to match, so the top tiers stay a week-long goal instead of falling in a couple of hits.\n- No progress is lost when that happens: the damage you've already dealt grows by the same amount, and rewards you've already reached stay ready to claim.\n\n### 🔧 Fixes\n- The Raid Boss and Clan Boss can no longer be killed, however strong you are: every attack now runs its full time and all your damage counts.\n\n### 🏆 Rankings\n- The Power, Stage and Tower rankings now run on the game's own server and show where everyone stands right now: your power drops or grows on the board with your hero, so the new gear balance is reflected straight away.\n- Rankings show your in-game name and picture; you're on them once you're signed in to chat.\n\n### ⚖ Gear Balance\n- Higher rarities no longer send your power through the roof: each rarity is now a solid step up instead of a giant leap (Crystalline gear is about 6.5x Norse instead of 30x).\n- Enemies from Skyborne onward were toned down to match, so you hit the same walls at the same stages as before.\n- Gear you already own is adjusted to the new values, and this week's Raid progress is scaled along with it, so your reward goals stay just as close."
