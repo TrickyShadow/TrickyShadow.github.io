@@ -100,14 +100,14 @@
   <header>
     <a class="eyebrow" href="/" style="text-decoration:none">← Viking Saga's Idle RPG</a>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective 7 November 2026 · App package <code>com.trickyshadow.vikingsaga</code></p>
+    <p class="meta">Effective 9 November 2026 · App package <code>com.trickyshadow.vikingsaga</code></p>
   </header>
 
   <div class="summary">
     <p><strong>In short</strong></p>
     <ul>
       <li>Your progress is stored on your phone, and in your Google account only if you link Google Play cloud save.</li>
-      <li>The in-game chat and friends run on our own server. It keeps your in-game name, profile picture, power, stage and Tower floor (also for the in-game rankings), your Play Games player ID, your chat messages and your friends list, and nothing else about you. You can delete it all from the game.</li>
+      <li>The in-game chat, friends, clans and rankings run on our own server. It keeps your in-game name, profile picture, power, stage and Tower floor (also for the in-game rankings), your Play Games player ID, your chat messages and your friends list, plus a copy of your game save (progress, resources and the purchases it granted) so we can help with bug reports and lost purchases. You can delete it all from the game.</li>
       <li>Ads are provided by Google AdMob, which collects device data to show and measure ads.</li>
       <li>Purchases are handled by Google Play. We never see your payment details.</li>
     </ul>
@@ -120,7 +120,7 @@
 
   <section>
     <h2>Information stored on your device</h2>
-    <p>The game saves your progress (heroes, gear, stages, currencies, purchases already granted) and your settings (music, sound, vibration, notifications) in the game's private storage on your phone. This data is not sent to us.</p>
+    <p>The game saves your progress (heroes, gear, stages, currencies, purchases already granted) and your settings (music, sound, vibration, notifications) in the game's private storage on your phone. While you are signed in to the chat, a copy of your progress is also sent to our server (see <a href="#server">Chat, friends and our server</a>); your settings are not.</p>
     <p>If Android backup is turned on for your Google account, Android may include the game's save in your device backup, which Google stores under its own privacy policy. Uninstalling the game removes its saved data from the phone.</p>
   </section>
 
@@ -131,18 +131,23 @@
   </section>
 
   <section>
-    <h2>Chat and friends</h2>
-    <p>The game has a chat with other players and a friends list. They run on a server we operate ourselves, reached at <code>api.playvikingsaga.com</code> through Cloudflare. To use them, the game signs you in with Google Play Games: Google confirms your Play Games player ID to our server, so nobody can chat as you. We do not receive your email address or your Google password.</p>
+    <h2 id="server">Chat, friends and our server</h2>
+    <p>The game has a chat with other players, a friends list, clans and rankings. They run on a server we operate ourselves, reached at <code>api.playvikingsaga.com</code> through Cloudflare. To use them, the game signs you in with Google Play Games: Google confirms your Play Games player ID to our server, so nobody can chat as you. We do not receive your email address or your Google password.</p>
     <p>The server stores:</p>
     <ul>
       <li>your Play Games player ID, your in-game hero name and profile picture, your hero power, furthest stage and Tower floor (shown to other players next to your messages, in friends lists and on the in-game Power, Stage and Tower rankings),</li>
       <li>your hero card: the gear you have equipped (with its levels and stats), your mount, forge level and total damage and health, shown to other players when they tap your name in the chat. Your inventory, resources and purchases are not shared,</li>
       <li>the chat messages you send (the newest 2,000 messages are kept; older ones are deleted),</li>
       <li>your friend code, friends and friend requests, the players you block, and reports you send or that are made about you,</li>
+      <li>your clan, its chat and what you do for it (clan boss damage, clan quest progress and clan coins),</li>
+      <li>the in-game names you used before (so our support can find your account after a rename),</li>
+      <li>a report of your resources and progress every few minutes (gold, gems, runes and other currencies, power, stage, forge level and the game's build number), kept as a history for 90 days. We use it to find and fix bugs, to correct resources after a glitch, and to spot cheating: a report that the game can't reach fairly takes the player off the rankings until we have looked at it,</li>
+      <li>a copy of your game save, sent every 15 minutes and when you leave the game, replacing the one before: your heroes, gear, mounts, pets, skills, currencies and progress, and the record of the purchases the game granted (the product, what it gave and its Google Play purchase token). Only we see it, and only to help with bug reports, refunds and purchases that didn't arrive. It is never sent back to your game,</li>
       <li>when you were last online, and a sign-in key for your phone.</li>
     </ul>
+    <p>The game also asks the server for the current time, to count offline earnings and daily resets fairly, and for news and events set by us (announcements, events such as 2x gold, and whether your version still needs an update). These requests send nothing about you.</p>
     <p>Chat messages are public: every player in the chat can read them. Do not share personal information in the chat. We read reported messages and may mute or ban players who break the rules. You can block or report any player by tapping their name.</p>
-    <p>You can delete all of this at any time with <strong>Chat → Friends → Delete my chat account</strong>, which removes your messages, friends, blocks and reports from the server (see <a href="/delete-account">Delete your account</a>, which also explains how to ask us by email). Cloudflare passes the connection to our server and sees your IP address, as with any website.</p>
+    <p>You can delete all of this at any time with <strong>Chat → Friends → Delete my chat account</strong>, which removes your messages, friends, blocks, reports, resource history and save copy from the server (see <a href="/delete-account">Delete your account</a>, which also explains how to ask us by email). Cloudflare passes the connection to our server and sees your IP address, as with any website.</p>
   </section>
 
   <section>
@@ -160,7 +165,7 @@
 
   <section>
     <h2>In-app purchases (Google Play)</h2>
-    <p>Purchases are processed by Google Play Billing. Google handles your payment information under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. The game only receives the product bought and a purchase token, which it keeps on your phone so each purchase is granted once. We do not receive your name, email address or payment details.</p>
+    <p>Purchases are processed by Google Play Billing. Google handles your payment information under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. The game only receives the product bought and a purchase token, which it keeps on your phone so each purchase is granted once. While you are signed in to the chat, this purchase record is also part of the save copy sent to our server, so we can check refunds and grant a purchase again if it didn't arrive. We do not receive your name, email address or payment details.</p>
     <p>If a purchase is refunded, cancelled or charged back, the game takes back what that purchase gave. To know which purchases were refunded, the game downloads a list of scrambled (hashed) purchase codes from our website, <code>trickyshadow.github.io</code>, which is hosted by GitHub. The list cannot be traced back to any player, and the game sends nothing about you or your purchases when downloading it; GitHub sees your IP address as with any website.</p>
   </section>
 
@@ -169,7 +174,7 @@
     <ul>
       <li><strong>Notifications:</strong> reminders (forge upgrade finished, offline earnings full, dungeon keys refilled) are scheduled on your phone. No notification data is sent to us, and you can turn them off in the game's settings or in Android's settings.</li>
       <li><strong>Vibration:</strong> used for haptic feedback only.</li>
-      <li><strong>Internet:</strong> used to load ads, to talk to Google Play for purchases, to check for refunded purchases, for the chat and friends, and for cloud save when you link it.</li>
+      <li><strong>Internet:</strong> used to load ads, to talk to Google Play for purchases, to check for refunded purchases, for the chat, friends, clans and rankings, for the server's clock and news, and for cloud save when you link it.</li>
     </ul>
   </section>
 
@@ -183,10 +188,11 @@
         <tbody>
           <tr><td>Game progress and settings</td><td>Your phone</td><td>To keep your game</td></tr>
           <tr><td>Copy of your game progress, Play Games display name (only if you link cloud save)</td><td>Google Play Games, in your Google account</td><td>Restoring your progress on other phones</td></tr>
-          <tr><td>Play Games player ID, in-game name and picture, power, stage and Tower floor, chat messages, friends, blocks and reports</td><td>Our chat server (through Cloudflare)</td><td>Chat, friends and rankings between players</td></tr>
+          <tr><td>Play Games player ID, in-game name and picture (and earlier names), power, stage and Tower floor, chat messages, friends, clan, blocks and reports</td><td>Our server (through Cloudflare)</td><td>Chat, friends, clans and rankings between players</td></tr>
+          <tr><td>Resource and progress reports, a copy of your game save with its purchase records</td><td>Our server (through Cloudflare)</td><td>Support, fixing bugs and lost purchases, checking refunds, preventing cheating</td></tr>
           <tr><td>Advertising ID, IP address, device info, ad interactions</td><td>Google AdMob</td><td>Showing and measuring ads, fraud prevention</td></tr>
           <tr><td>Payment details</td><td>Google Play</td><td>Processing purchases</td></tr>
-          <tr><td>Product bought and purchase token</td><td>Google Play and your phone</td><td>Granting each purchase once</td></tr>
+          <tr><td>Product bought and purchase token</td><td>Google Play, your phone and (in the save copy) our server</td><td>Granting each purchase once, checking refunds</td></tr>
         </tbody>
       </table>
     </div>
