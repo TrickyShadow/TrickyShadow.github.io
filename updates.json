@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.51",
+  "date": "2026-11-12",
+  "notes": "### 🔧 Fixes\n- **Rankings keep up**: your power on the Power ranking now updates as quickly as on your hero card, instead of up to 5 minutes later.\n- **Hero cards show current power**: tapping a player now shows their latest power, the same as the Power ranking, instead of the power from when they last changed gear.\n\n### 🛡️ Cleaner chat\n- **Bad words are hidden**: swear words and slurs in chat are now replaced with stars.\n- **No offensive names**: hero names with bad words can't be saved. Heroes that already have one go back to Runi and pick a new name.\n- **No pretending to be the team**: names of the game's maker and staff are reserved, so nobody can pass as them.\n\n### ⚒️ Forge goals that keep up\n- **Goals that match your hero**: each new forge level now sets its stage and power goals a little past where you are, so they stay a real goal even when your hero is far ahead of the normal ones.\n\n### 🔢 Smaller numbers\n- **Numbers squished**: power, attack, health and monsters are now much smaller and easier to read. You're exactly as strong as before against the monsters, they shrank with you.\n- **Ascension goes up to tier 3**: each system can now ascend 3 times."
+ },
+ {
   "version": "1.0.50",
   "date": "2026-11-12",
   "notes": "### 🛡️ Cleaner chat\n- **Bad words are hidden**: swear words and slurs in chat are now replaced with stars.\n- **No offensive names**: hero names with bad words can't be saved. Heroes that already have one go back to Runi and pick a new name.\n- **No pretending to be the team**: names of the game's maker and staff are reserved, so nobody can pass as them.\n\n### ⚒️ Forge goals that keep up\n- **Goals that match your hero**: each new forge level now sets its stage and power goals a little past where you are, so they stay a real goal even when your hero is far ahead of the normal ones."
