@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.55",
+  "date": "2026-11-15",
+  "notes": "### ⚔️ New gear popup\n- **Power is back**: the new item popup shows your power now and with the new item equipped, with a green + or red − badge for the change.\n- **Stat changes**: below that, every stat that would change (Attack, Health, Attacks/s, Crit Chance, Crit Damage, Lifesteal) shows before → after, so you can see what you gain and what you lose from the old item's bonus stats.\n- **Power decides upgrades again**: an item counts as an upgrade when it raises your Power, bonus stats included. The arrows, the Equip button colour, the sell/equip warnings and auto-forge's \"Upgrades\" mode all follow Power.\n\n### 🛡️ Clan shop\n- **New look**: the clan shop has a coin banner with a refill countdown, and its items show as cards like the main shop's, with dots for how many you can still buy this week.\n- **Clan chest**: a new weekly bundle with gems, pet eggs, mount shards, a skill book and a tower ticket, for 250 clan coins.\n\n### 🔧 Fixes\n- Bonus stats on another player's card no longer break into scrambled columns on some phones."
+ },
+ {
   "version": "1.0.54",
   "date": "2026-11-15",
   "notes": "### ⚔️ New gear popup\n- **Power is back**: the new item popup shows your power now and with the new item equipped, with a green + or red − badge for the change.\n- **Stat changes**: below that, every stat that would change (Attack, Health, Attacks/s, Crit Chance, Crit Damage, Lifesteal) shows before → after, so you can see what you gain and what you lose from the old item's bonus stats.\n- **Power decides upgrades again**: an item counts as an upgrade when it raises your Power, bonus stats included. The arrows, the Equip button colour, the sell/equip warnings and auto-forge's \"Upgrades\" mode all follow Power."
