@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.59",
+  "date": "2026-11-15",
+  "notes": "### Changes\n## ⚖️ Changes\n- 🐢 **Smoother endgame**: past 61-10 enemies now grow much more slowly, so every bit of power you gain (forge quality, merges, mastery, ascensions) carries you further through the stages. Fully ascended heroes can now push all the way to around 150-10.\n- 💰 **Gold past 61-10** grows at the same gentle pace as the enemies, so it stays worth earning all the way up.\n- 🔨 **Forge goals past 61-10**: power goals now ask for just what a forge level adds, and stage goals stop at the next chapter boss, so you can always forge all the way to level 120. Goals that were out of reach are set again when you update."
+ },
+ {
   "version": "1.0.58",
   "date": "2026-11-15",
   "notes": "### Changes\n## 🛠️ Fixes\n- ⚖️ **Gear level cap**: gear forged before the 61-10 level cap that was still above it is brought down to the cap, so Power stays fair for everyone. If any of your equipped gear was changed, a gem gift waits in your mailbox (500 gems per item)."
