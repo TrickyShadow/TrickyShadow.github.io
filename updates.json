@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.64",
+  "date": "2026-11-19",
+  "notes": "### Changes\n## ⚖️ Changes\n- ⭐ **Mastery ascension only strengthens Mastery**: each ascension still makes every Mastery effect stronger, but newly forged gear is no longer stronger at higher Mastery tiers. Gear you already have keeps its stats."
+ },
+ {
   "version": "1.0.63",
   "date": "2026-11-19",
   "notes": "### Changes\n## ⚖️ Changes\n- ⭐ **Mastery costs far more at higher tiers**: after the second Mastery ascension every Mastery level costs at least 100T gold (rising to 2.8Qa for the last), and after the third at least 1Qa (rising to 83Qa)."
