@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.68",
+  "date": "2026-11-22",
+  "notes": "### Changes\n## ✨ New\n- 🔥 Hero cards show a Ragnarök badge next to the stage with how many times that player has been through Ragnarök.\n- 🔨 Auto-forge's Bonus stats have an ON/OFF switch. Turn it off to ignore your Want and Skip picks without losing them.\n## ⚖️ Changes\n- 💎 Gem packs give almost 3x the gems for the same price: Pouch 575, Sack 4,000, Chest 10,000. The No-Ads Pack and Speed + No-Ads now include 1,500 gems.\n- 🧭 Hero cards, chat and clan lists now show the stage you've reached since your last Ragnarök. The Stage rankings still count your furthest stage ever."
+ },
+ {
   "version": "1.0.67",
   "date": "2026-11-21",
   "notes": "### Changes\n## ⚖️ Changes\n- 🧭 Hero cards, chat and clan lists now show the stage you've reached since your last Ragnarök. The Stage rankings still count your furthest stage ever.\n## ✨ New\n- 🔥 Hero cards show a Ragnarök badge next to the stage with how many times that player has been through Ragnarök.\n- 💎 Gem packs give almost 3x the gems for the same price: Pouch 575, Sack 4,000, Chest 10,000. The No-Ads Pack and Speed + No-Ads now include 1,500 gems."
