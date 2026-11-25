@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.78",
+  "date": "2026-11-25",
+  "notes": "### Changes\n## ✨ Changes\n- 🕒 The Friends list now shows when each friend was last on (\"Online\", \"3h ago\", \"2d ago\"), like the clan members list.\n- ⚒️ The \"Forge items\" clan quest now asks for about 6 times as many items, in line with the other clan quests.\n- 🗼 The Tower and dungeons now have fixed difficulty: each floor or level is a set step harder than the last, no longer matched to your power or your campaign stage. The early floors climb fast; getting past floor 50-10 takes a late-endgame hero, and the Tower now ends at floor 100-10. Floors you can now reach for the first time still pay their first-clear rewards.\n- 🔤 Gear now shows its rarity as a letter in the top-left corner (C, U, R, E, L, M for Common to Mythic), so you can tell rarities apart without relying on colour. Ascension stars moved to the top-right corner. You can turn the letters off in Settings (Effects).\n## 🛠️ Fixes\n- ❤️ The Tower floor and the \"Defeated\" popup now show the guardian's real health, the same as in the fight."
+ },
+ {
   "version": "1.0.77",
   "date": "2026-11-25",
   "notes": "### Changes\n## ✨ Changes\n- 🕒 The Friends list now shows when each friend was last on (\"Online\", \"3h ago\", \"2d ago\"), like the clan members list.\n- ⚒️ The \"Forge items\" clan quest now asks for about 6 times as many items, in line with the other clan quests.\n- 🗼 The Tower and dungeons now have fixed difficulty: each floor or level is a set step harder than the last, no longer matched to your power or your campaign stage. The early floors climb fast; getting past floor 50-10 takes a late-endgame hero, and the Tower now ends at floor 100-10. Floors you can now reach for the first time still pay their first-clear rewards.\n- 🔤 Gear now shows its rarity as a letter in the top-left corner (C, U, R, E, L, M for Common to Mythic), so you can tell rarities apart without relying on colour. Ascension stars moved to the top-right corner.\n## 🛠️ Fixes\n- ❤️ The Tower floor and the \"Defeated\" popup now show the guardian's real health, the same as in the fight."
