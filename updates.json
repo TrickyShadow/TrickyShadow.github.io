@@ -1,5 +1,10 @@
 [
  {
+  "version": "1.0.81",
+  "date": "2026-11-28",
+  "notes": "### Changes\n## 🔧 Changes\n- 💎 The Yggdrasil tech tree now shows your gems next to Wisdom.\n- 💎 Gem prices and rewards (Create Clan, achievement rewards) now use the painted gem icon.\n- 🐉 Finishing a Clan Boss fight now takes you back to the Boss tab instead of the clan's main page.\n## 🐛 Fixes\n- 🗝️ Tapping Sweep quickly in a dungeon no longer uses a second key while the first sweep's rewards are showing."
+ },
+ {
   "version": "1.0.80",
   "date": "2026-11-27",
   "notes": "### Changes\n## 🔧 Changes\n- 🔥 Full Ragnarök now gives 20% more Valor for each pet, mount and skill ascension tier you give up, on top of its 20% (up to 200% more with every tier, more with Twilight of the Gods)."
